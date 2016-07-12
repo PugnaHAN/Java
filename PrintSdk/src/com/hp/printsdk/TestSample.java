@@ -1,5 +1,7 @@
 package com.hp.printsdk;
 
+import com.hp.printsdk.printer.ExecCommand;
+
 import java.io.FileNotFoundException;
 
 /**
@@ -56,6 +58,10 @@ public class TestSample {
 
             thread1.start();
             thread.start();
+
+            String cmd = "notepad.exe";
+            ExecCommand.execute(cmd);
+            System.out.println("End");
         } catch (Exception e) {
             e.printStackTrace();
         }

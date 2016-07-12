@@ -1,7 +1,5 @@
 package com.hp.printsdk;
 
-import org.omg.SendingContext.RunTime;
-
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -180,6 +178,23 @@ public class PrintTaskManager implements IPrintTaskManager{
         }
     }
 
+    /**
+     * Print the task which you are interested in, but the task should be added into the queue before print
+     * @param task  - the task which you wanna print
+     */
+    public synchronized void start(PrintTask task) {
+        if(!hasPermission()) {
+            return;
+        }
+
+        if(mToPrintQueue.indexOf(task) != -1) {
+            task.setOnUpdateListener(() -> {
+                updateTask(task);
+            });
+            task.start();
+        }
+    }
+
     // Update single task to correct list
     private void updateTask(PrintTask task) {
         switch (task.getCurrentStatus()) {
@@ -221,10 +236,6 @@ public class PrintTaskManager implements IPrintTaskManager{
     }
 
     private boolean hasPermission() {
-        if(getMaster() == null) {
-            return true;
-        } else {
-            return Thread.currentThread().equals(getMaster()) ;
-        }
+        return Thread.currentThread().equals(mMaster) || mMaster == null ;
     }
 }
