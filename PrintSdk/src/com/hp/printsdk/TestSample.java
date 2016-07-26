@@ -1,13 +1,13 @@
 package com.hp.printsdk;
 
-import com.hp.printsdk.printer.ExecCommand;
-
-import java.io.FileNotFoundException;
+import com.hp.printsdk.printer.Log;
+import com.hp.printsdk.printer.ShellUtils;
 
 /**
  * Created by zhangjuh on 2016/6/30.
  */
 public class TestSample {
+    private static final String TAG = TestSample.class.getSimpleName();
 
     public static void main(String[] args) {
         try {
@@ -59,9 +59,8 @@ public class TestSample {
             thread1.start();
             thread.start();
 
-            String cmd = "notepad.exe";
-            ExecCommand.execute(cmd);
-            System.out.println("End");
+            String result = ShellUtils.execCommand("cmd \\dir", false);
+            Log.d(TAG, result);
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb99138-42a5-49f5-ad89-4895397ee4cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/IPrintTaskManager.class" afterPath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/IPrintTaskManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/PrintTask$TaskStatus.class" afterPath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/PrintTask$TaskStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/PrintTask.class" afterPath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/PrintTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/PrintTaskManager$1.class" afterPath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/PrintTaskManager$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/PrintTaskManager.class" afterPath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/PrintTaskManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hp/printsdk/printer/Log.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hp/printsdk/printer/PrintScript.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hp/printsdk/printer/ShellUtils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/printer/ExecCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hp/printsdk/printer/ExecCommand.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/TestSample.class" afterPath="$PROJECT_DIR$/out/production/PrintSdk/com/hp/printsdk/TestSample.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hp/printsdk/IPrintTaskManager.java" afterPath="$PROJECT_DIR$/src/com/hp/printsdk/IPrintTaskManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hp/printsdk/PrintTaskManager.java" afterPath="$PROJECT_DIR$/src/com/hp/printsdk/PrintTaskManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hp/printsdk/TestSample.java" afterPath="$PROJECT_DIR$/src/com/hp/printsdk/TestSample.java" />
     </list>
     <ignored path="PrintSdk.iws" />
@@ -45,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSample.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestSample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/TestSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            <state relative-caret-position="517">
+              <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,16 +57,12 @@
       <file leaf-file-name="PrintTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/PrintTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3893">
-              <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+            <state relative-caret-position="3468">
+              <caret line="225" column="39" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6930#6931#0" expanded="true" />
-                <element signature="e#6970#6971#0" expanded="true" />
-                <element signature="e#7024#7025#0" expanded="true" />
-                <element signature="e#7063#7064#0" expanded="true" />
-                <element signature="e#7837#7838#0" expanded="true" />
-                <element signature="e#7905#7906#0" expanded="true" />
+                <element signature="e#6328#6329#0" expanded="true" />
+                <element signature="e#6370#6371#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,9 +83,46 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintScript.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/PrintScript.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShellUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/ShellUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
               <folding>
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Log.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,40 +131,14 @@
       <file leaf-file-name="PrintTaskManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/PrintTaskManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#updateTask#0;class#PrintTaskManager#0" expanded="false" />
                 <element signature="method#arrangeDoneTasks#0;class#PrintTaskManager#0" expanded="false" />
                 <element signature="method#arrangeWaitingList#0;class#PrintTaskManager#0" expanded="false" />
                 <element signature="method#arrangeAbortedList#0;class#PrintTaskManager#0" expanded="false" />
-                <element signature="e#6165#6166#0" expanded="true" />
-                <element signature="e#6246#6247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecCommand.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/ExecCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="87" column="50" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
-              <folding>
-                <element signature="class#ExeResult#0;class#ExecCommand#0" expanded="false" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1299#1300#0" expanded="true" />
-                <element signature="e#1342#1343#0" expanded="true" />
-                <element signature="e#1386#1387#0" expanded="true" />
-                <element signature="e#1446#1447#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,12 +168,15 @@
         <option value="$PROJECT_DIR$/src/com/hp/printsdk/IllegalTaskManagerException.java" />
         <option value="$PROJECT_DIR$/src/com/hp/printsdk/Owner.java" />
         <option value="$PROJECT_DIR$/src/com/hp/printsdk/TaskManagerThread.java" />
-        <option value="$PROJECT_DIR$/src/com/hp/printsdk/PrintTask.java" />
         <option value="$PROJECT_DIR$/src/com/hp/printsdk/IPrintTaskManager.java" />
         <option value="$PROJECT_DIR$/src/com/hp/printsdk/PrintTaskManager.java" />
         <option value="$PROJECT_DIR$/src/com/hp/printsdk/printer/IExecCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/hp/printsdk/TestSample.java" />
         <option value="$PROJECT_DIR$/src/com/hp/printsdk/printer/ExecCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/hp/printsdk/printer/Log.java" />
+        <option value="$PROJECT_DIR$/src/com/hp/printsdk/printer/PrintScript.java" />
+        <option value="$PROJECT_DIR$/src/com/hp/printsdk/PrintTask.java" />
+        <option value="$PROJECT_DIR$/src/com/hp/printsdk/printer/ShellUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/hp/printsdk/TestSample.java" />
       </list>
     </option>
   </component>
@@ -282,6 +289,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Projects\Java\PrintSdk\src\com\hp\printsdk\printer" />
       <recent name="D:\Work\Projects\Java\PrintSdk\src\com\hp\printsdk" />
     </key>
   </component>
@@ -732,16 +740,17 @@
       <workItem from="1467192353351" duration="53000" />
       <workItem from="1467248727223" duration="19408000" />
       <workItem from="1467336647605" duration="10660000" />
-      <workItem from="1468313026116" duration="3186000" />
+      <workItem from="1468313026116" duration="8212000" />
+      <workItem from="1468811614110" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33307000" />
+    <option name="totallyTimeSpent" value="38341000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -766,7 +775,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -783,7 +792,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -812,16 +821,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/PrintTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3893">
-          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+        <state relative-caret-position="3468">
+          <caret line="225" column="39" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6930#6931#0" expanded="true" />
-            <element signature="e#6970#6971#0" expanded="true" />
-            <element signature="e#7024#7025#0" expanded="true" />
-            <element signature="e#7063#7064#0" expanded="true" />
-            <element signature="e#7837#7838#0" expanded="true" />
-            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="e#6328#6329#0" expanded="true" />
+            <element signature="e#6370#6371#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -838,10 +843,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/PrintScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/ShellUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
           <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/PrintTaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#updateTask#0;class#PrintTaskManager#0" expanded="false" />
+            <element signature="method#arrangeDoneTasks#0;class#PrintTaskManager#0" expanded="false" />
+            <element signature="method#arrangeWaitingList#0;class#PrintTaskManager#0" expanded="false" />
+            <element signature="method#arrangeAbortedList#0;class#PrintTaskManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/IPrintTaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/TestSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/PrintTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3893">
+          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6328#6329#0" expanded="true" />
+            <element signature="e#6370#6371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/TaskManagerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/IllegalTaskManagerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -855,34 +951,11 @@
             <element signature="method#arrangeDoneTasks#0;class#PrintTaskManager#0" expanded="false" />
             <element signature="method#arrangeWaitingList#0;class#PrintTaskManager#0" expanded="false" />
             <element signature="method#arrangeAbortedList#0;class#PrintTaskManager#0" expanded="false" />
-            <element signature="e#6165#6166#0" expanded="true" />
-            <element signature="e#6246#6247#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/ExecCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="class#ExeResult#0;class#ExecCommand#0" expanded="false" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/ExecCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/IPrintTaskManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -896,60 +969,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-111">
           <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/PrintTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3893">
-          <caret line="254" column="17" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6930#6931#0" expanded="true" />
-            <element signature="e#6970#6971#0" expanded="true" />
-            <element signature="e#7024#7025#0" expanded="true" />
-            <element signature="e#7063#7064#0" expanded="true" />
-            <element signature="e#7837#7838#0" expanded="true" />
-            <element signature="e#7905#7906#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/Printer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/PrinterManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/IPrintTaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/TaskManagerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/IllegalTaskManagerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
           <caret line="309" column="15" selection-start-line="309" selection-start-column="15" selection-end-line="309" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,55 +1007,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7080">
           <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/IExecCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/ExecCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/TaskManagerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/PrintTaskManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#updateTask#0;class#PrintTaskManager#0" expanded="false" />
             <element signature="method#arrangeDoneTasks#0;class#PrintTaskManager#0" expanded="false" />
             <element signature="method#arrangeWaitingList#0;class#PrintTaskManager#0" expanded="false" />
             <element signature="method#arrangeAbortedList#0;class#PrintTaskManager#0" expanded="false" />
-            <element signature="e#6165#6166#0" expanded="true" />
-            <element signature="e#6246#6247#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/IExecCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/TestSample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/IPrintTaskManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="595">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/PrintAction.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/rt.jar!/sun/rmi/runtime/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/PrintTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3468">
+          <caret line="225" column="39" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6328#6329#0" expanded="true" />
+            <element signature="e#6370#6371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/ExecCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/IllegalTaskManagerException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="87" column="50" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/PrintScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/printer/ShellUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
           <folding>
-            <element signature="class#ExeResult#0;class#ExecCommand#0" expanded="false" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/printsdk/TestSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
